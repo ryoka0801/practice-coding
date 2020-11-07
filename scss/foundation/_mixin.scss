@@ -1,0 +1,33 @@
+@mixin breakpoint( $point ) {
+	// ブラウザサイズ641pxより大きい時
+	@if $point == tablet {
+		@media ( min-width: 641px ) {
+			@content ;
+		}
+	}
+	// ブラウザサイズ769pxより大きい時
+	@if $point == pc {
+		@media ( min-width: 769px ) {
+			@content ;
+		}
+	}
+	// ブラウザサイズ961pxより大きい時
+	@if $point == wide {
+		@media ( min-width: 961px ) {
+			@content ;
+		}
+	}
+}
+
+// base color
+$black: #333333;
+$darkblack: #454545;
+$gray: #808080;
+$whitegray: #E2E2E2;
+
+// primaru color
+$red: #D81F32;
+
+// secondary color
+$green: #01B3A7;
+$blue: #1592E6;

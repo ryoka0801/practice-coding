@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 62.5%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Lato','メイリオ', Meiryo,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 9.4rem;
+  background-color: #D81F32;
+  text-align: center;
+}
+
+.u-recommend-news {
+  background-color: #E2E2E2;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  background-color: #868686;
+  text-align: center;
+  color: white;
+}
+
+.c-header-title {
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.c-header-sub {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+
+.c-category {
+  background-color: #D81F32;
+  color: #fff;
+  width: 8.9rem;
+  height: 2.4rem;
+  text-align: center;
+  line-height: 2.4rem;
+}
+
+.c-c_card-img {
+  height: 100%;
+  width: 14.8rem;
+}
+
+.c-c_card-title {
+  margin-left: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  overflow: hidden;
+}
+
+.c-blog-thumbnail {
+  width: 100%;
+  height: 20.2rem;
+}
+
+.c-blog-category-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog-date {
+  margin-left: 3.4rem;
+  font-size: 1.2rem;
+  color: #808080;
+}
+
+.c-blog-title {
+  margin: 1.2rem 0 0 0;
+  width: 30rem;
+  height: 5.5rem;
+  font-size: 1.8rem;
+  line-height: 3.1rem;
+  overflow: hidden;
+}
+
+.c-blog-text {
+  margin: 1.5rem 0 0 0;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  height: 4.5rem;
+  overflow: hidden;
+  color: #454545;
+}
+
+.c-profile-head {
+  text-align: initial;
+  font-size: 1.8rem;
+  height: 4.3rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.c-profile-head:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, #D81F32, #D81F32 2px, white 2px, white 4px);
+}
+
+.c-profile-avator {
+  margin: 0 0 3rem 0;
+}
+
+.c-profile-text {
+  width: 30rem;
+  height: 11.6rem;
+  margin: 0 auto 3.1rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #333333;
+  overflow: hidden;
+}
+
+.c-popular-title {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.c-archive-text {
+  color: #333333;
+  font-size: 1.4rem;
+  text-align: initial;
+  padding: 2.7rem 0 2rem;
+  border-bottom: solid 1px #E2E2E2;
+}
+
+.c-footer-title {
+  color: #fff;
+  font-size: 2.6rem;
+  padding-top: 6rem;
+}
+
+body {
+  position: relative;
+}
+
+.p-sp-nav {
+  position: absolute;
+  right: 100%;
+}
+
+.p-c_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+  width: 34.9rem;
+  height: 8.6rem;
+}
+
+.p-blog-post {
+  width: 34.3rem;
+  height: 39.3rem;
+  margin: 0 auto 2.7rem;
+  border: solid 1px #707070;
+}
+
+.p-profile {
+  height: 43.5rem;
+  width: 34rem;
+  margin-bottom: 5.6rem;
+}
+
+.p-search-form {
+  height: 13.3rem;
+  width: 34rem;
+}
+
+.p-footer-menu {
+  color: white;
+  margin-bottom: 1.8rem;
+}
+
+.p-footer-copyright {
+  background-color: #464646;
+  margin-top: 5.9rem;
+  height: 7.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-footer-copyright p {
+  font-size: 1.2rem;
+}
+
+.u-recommend-news {
+  padding: 4rem 1.5rem;
+}
+
+.u-blog-repeat {
+  padding: 4.2rem 1.5rem 8rem 1.1rem;
+}
+
+.u-blog-info {
+  padding: 2rem 2.3rem 2rem 2rem;
+}
+
+.u-blog {
+  margin: 0 1.7rem 12rem 1.8rem;
+}
+
+.u-footer-sub-title {
+  padding-top: 1.8rem;
+}
+
+.u-position {
+  position: relative;
+}
+
+.u-img-right-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.u-popular-contents {
+  margin-bottom: 6rem;
+}
+
+.u-footer-menu-list {
+  margin-top: 3.9rem;
+}
