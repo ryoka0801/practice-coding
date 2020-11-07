@@ -3,4 +3,8 @@
   font-size: 1.6rem;
   line-height: 2.7rem;
   overflow: hidden;
+  @include breakpoint( pc ) {
+    margin: 2rem 0 0 0;
+    font-size: 1.8rem;
+  }
 }

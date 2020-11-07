@@ -1,0 +1,21 @@
+body {
+  position: relative;
+}
+
+.p-nav {
+  position: absolute;
+  right: 100%;
+  @include breakpoint( pc ) {
+    position: static;
+    display: flex;
+    justify-content: center;
+    height: 9.8rem;
+    align-items: center;
+    li {
+      list-style: none;
+    } a {
+      color: $black;
+      margin-right: 3.7rem;
+    }
+  }
+}

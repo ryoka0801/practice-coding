@@ -1,0 +1,9 @@
+.c-recommend-news {
+  padding: 4rem 1.5rem;
+  background-color: #F4F4F4;
+  @include breakpoint( pc ) {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+}

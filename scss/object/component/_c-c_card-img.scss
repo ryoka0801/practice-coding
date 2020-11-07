@@ -1,4 +1,8 @@
 .c-c_card-img {
   height: 100%;
   width: 14.8rem;
+  @include breakpoint( pc ) {
+    width: 34rem;
+    height: 20rem;
+  }
 }

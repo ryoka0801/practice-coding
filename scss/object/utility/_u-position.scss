@@ -1,5 +1,9 @@
 .u-position {
   position: relative;
+  @include breakpoint( pc ) {
+    width: 34rem;
+    height: 20rem;
+  }
 }
 
 .u-img-right-top {
