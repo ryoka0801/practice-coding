@@ -11,7 +11,7 @@
 // object
 //component
 @import "object/component/c-head-title";
-@import "object/component/c-c_card";
+@import "object/component/c-category";
 @import "object/component/c-c_card-img";
 @import "object/component/c-c_card-title";
 @import "object/component/c-blog-thumbnail";
@@ -23,6 +23,7 @@
 @import "object/component/_c-profile-avator";
 @import "object/component/_c-profile-text";
 @import "object/component/_c-popular-title";
+@import "object/component/c-popular-img";
 @import "object/component/_c-archive-text";
 @import "object/component/c-footer-title";
 @import "object/component/_c-recommend-news";
@@ -36,6 +37,7 @@
 @import "object/project/_p-footer-menu";
 @import "object/project/_p-footer-copyright";
 @import "object/project/p-header";
+@import "object/project/p-pc-new-popular";
 
 // utility
 @import "object/utility/u-padding";

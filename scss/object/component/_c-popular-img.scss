@@ -1,0 +1,6 @@
+.c-popular-img {
+  @include breakpoint( pc ) {
+    width: 12rem;
+    height: 7rem;
+  }
+}

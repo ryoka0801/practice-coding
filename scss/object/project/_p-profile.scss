@@ -2,4 +2,7 @@
   height: 43.5rem;
   width: 34rem;
   margin-bottom: 5.6rem;
+  @include breakpoint( pc ) {
+    margin: 0;
+  }
 }

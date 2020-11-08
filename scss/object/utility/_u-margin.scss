@@ -4,4 +4,17 @@
 
 .u-footer-menu-list {
   margin-top: 3.9rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.u-blog-section:nth-of-type(odd) {
+  @include breakpoint( pc ) {
+    margin-right: 4rem;
+  }
+}
+
+.u-blog-section {
+  width: 34rem;
 }

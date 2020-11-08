@@ -1,16 +1,40 @@
+.u-home-pc-column {
+  @include breakpoint( pc ) {
+    padding: 6rem 0 12rem 0;
+  }
+}
+
 .u-blog-repeat {
   padding: 4.2rem 1.5rem 8rem 1.1rem;
+  @include breakpoint( pc ) {
+    display: flex;
+   flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0;
+    width: 72.277rem;
+    margin-right: 3.82rem;
+  }
 }
 
 .u-blog-info {
   padding: 2rem 2.3rem 2rem 2rem;
+  @include breakpoint( pc ) {
+    padding: 2rem;
+  }
 }
 
 .u-blog {
   margin: 0 1.7rem 12rem 1.8rem;
+  @include breakpoint( pc ) {
+    margin: 0;
+    width: 34.1rem;
+  }
 }
 
 .u-footer-sub-title {
   padding-top: 1.8rem;
+  @include breakpoint( pc ) {
+    padding-top: 1.5rem;
+  }
 }
 

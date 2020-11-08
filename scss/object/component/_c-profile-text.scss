@@ -6,4 +6,7 @@
   line-height: 2.4rem;
   color: $black;
   overflow: hidden;
+  @include breakpoint( pc ) {
+    height: 11.3rem;
+  }
 }

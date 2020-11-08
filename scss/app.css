@@ -136,7 +136,7 @@ footer {
 @media (min-width: 769px) {
   .c-header-title {
     padding: 0;
-    margin: 4rem 0 0 8.6rem;
+    margin: 4rem 0 0 0;
     font-size: 3.6rem;
   }
 }
@@ -161,6 +161,7 @@ footer {
   height: 2.4rem;
   text-align: center;
   line-height: 2.4rem;
+  font-size: 1.2rem;
 }
 
 .c-c_card-img {
@@ -190,8 +191,14 @@ footer {
 }
 
 .c-blog-thumbnail {
-  width: 100%;
+  width: 34.3rem;
   height: 20.2rem;
+}
+
+@media (min-width: 769px) {
+  .c-blog-thumbnail {
+    height: 20rem;
+  }
 }
 
 .c-blog-category-date {
@@ -260,10 +267,32 @@ footer {
   overflow: hidden;
 }
 
+@media (min-width: 769px) {
+  .c-profile-text {
+    height: 11.3rem;
+  }
+}
+
 .c-popular-title {
   margin-left: 1rem;
   font-size: 1.4rem;
   line-height: 2.2rem;
+  text-align: initial;
+  width: 21rem;
+  height: 6.5rem;
+}
+
+@media (min-width: 769px) {
+  .c-popular-title {
+    margin: 0 0 0 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .c-popular-img {
+    width: 12rem;
+    height: 7rem;
+  }
 }
 
 .c-archive-text {
@@ -274,10 +303,19 @@ footer {
   border-bottom: solid 1px #E2E2E2;
 }
 
+.c-archive-menu {
+  list-style: none;
+}
+
 .c-footer-title {
-  color: #fff;
   font-size: 2.6rem;
   padding-top: 6rem;
+}
+
+@media (min-width: 769px) {
+  .c-footer-title {
+    font-size: 3.6rem;
+  }
 }
 
 .c-recommend-news {
@@ -359,10 +397,24 @@ body {
   border: solid 1px #707070;
 }
 
+@media (min-width: 769px) {
+  .p-blog-post {
+    width: 34rem;
+    height: 38.1rem;
+    margin-bottom: 4.9rem;
+  }
+}
+
 .p-profile {
   height: 43.5rem;
   width: 34rem;
   margin-bottom: 5.6rem;
+}
+
+@media (min-width: 769px) {
+  .p-profile {
+    margin: 0;
+  }
 }
 
 .p-search-form {
@@ -373,6 +425,43 @@ body {
 .p-footer-menu {
   color: white;
   margin-bottom: 1.8rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 769px) {
+  .p-footer-menu {
+    margin: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  li > a:nth-of-type(1) {
+    margin-right: 4.1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  li > a:nth-of-type(2) {
+    margin-right: 4.4rem;
+  }
+}
+
+@media (min-width: 769px) {
+  li > a:nth-of-type(3) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  li > a:nth-of-type(4) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  li > a:nth-of-type(5) {
+    margin-right: 0;
+  }
 }
 
 .p-footer-copyright {
@@ -402,20 +491,70 @@ body {
   }
 }
 
+@media (min-width: 769px) {
+  .p-pc-new-popular {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 7rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .u-home-pc-column {
+    padding: 6rem 0 12rem 0;
+  }
+}
+
 .u-blog-repeat {
   padding: 4.2rem 1.5rem 8rem 1.1rem;
+}
+
+@media (min-width: 769px) {
+  .u-blog-repeat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    padding: 0;
+    width: 72.277rem;
+    margin-right: 3.82rem;
+  }
 }
 
 .u-blog-info {
   padding: 2rem 2.3rem 2rem 2rem;
 }
 
+@media (min-width: 769px) {
+  .u-blog-info {
+    padding: 2rem;
+  }
+}
+
 .u-blog {
   margin: 0 1.7rem 12rem 1.8rem;
 }
 
+@media (min-width: 769px) {
+  .u-blog {
+    margin: 0;
+    width: 34.1rem;
+  }
+}
+
 .u-footer-sub-title {
   padding-top: 1.8rem;
+}
+
+@media (min-width: 769px) {
+  .u-footer-sub-title {
+    padding-top: 1.5rem;
+  }
 }
 
 .u-position {
@@ -441,10 +580,32 @@ body {
 
 .u-footer-menu-list {
   margin-top: 3.9rem;
-}
-
-.u-home-pc-column {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .u-blog-section:nth-of-type(odd) {
+    margin-right: 4rem;
+  }
+}
+
+.u-blog-section {
+  width: 34rem;
+}
+
+@media (min-width: 769px) {
+  .u-home-pc-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }

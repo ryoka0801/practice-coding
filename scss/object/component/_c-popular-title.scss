@@ -2,4 +2,10 @@
   margin-left: 1rem;
   font-size: 1.4rem;
   line-height: 2.2rem;
+  text-align: initial;
+  width: 21rem;
+  height: 6.5rem;
+  @include breakpoint( pc ) {
+    margin: 0 0 0 1rem;
+  }
 }
