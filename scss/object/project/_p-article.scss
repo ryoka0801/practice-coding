@@ -1,0 +1,41 @@
+.p-article {
+  width: 34.3rem;
+  height: 20.2rem+15.1rem+4rem;
+  margin: 0 auto 2.7rem;
+  border: solid 1px #707070;
+  @include breakpoint( pc ) {
+    width: 34rem;
+    height: 38.1rem;
+    margin-bottom: 4.9rem;
+  }
+}
+
+.c-article__thumb {
+  width: 34.3rem;
+  height: 20.2rem;
+  @include breakpoint( pc ) {
+    height: 20rem;
+  }
+}
+
+.c-article__desc-wrap {
+  padding: 2rem 2.3rem 2rem 2rem;
+  @include breakpoint( pc ) {
+    padding: 2rem;
+  }
+  .c-post-title {
+    margin: 1.2rem 0 0 0;
+    width: 30rem;
+    height: 5.5rem;
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+    overflow: hidden;
+  }
+}
+
+.c-article__cat-date-wrap {
+  display: flex;
+  height: 2.4rem;
+  align-items: center;
+}
+

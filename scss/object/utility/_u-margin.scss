@@ -2,6 +2,14 @@
   margin-bottom: 6rem;
 }
 
+.u-article-list-wrap {
+  margin: 0 1.7rem 12rem 1.8rem;
+  @include breakpoint( pc ) {
+    margin: 0;
+    width: 34.1rem;
+  }
+}
+
 .u-footer-menu-list {
   margin-top: 3.9rem;
   list-style: none;
@@ -13,8 +21,4 @@
   @include breakpoint( pc ) {
     margin-right: 4rem;
   }
-}
-
-.u-blog-section {
-  width: 34rem;
 }

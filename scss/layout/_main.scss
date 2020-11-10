@@ -4,4 +4,11 @@
 
 main {
   text-align: center;
+  .u-flex {
+    display: initial;
+    @include breakpoint( pc ) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

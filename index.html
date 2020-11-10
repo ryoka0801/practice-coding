@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/scss/app.css">
-  <title>Document</title>
+  <title>トップページ</title>
 </head>
 
 <body>
@@ -13,9 +13,9 @@
   <header>
     <div class="p-header">
       <a href="#">
-        <h1 class="c-header-title">blog title</h1>
+        <h1 class="p-header__title">blog title</h1>
       </a>
-      <p class="c-header-sub">サブタイトルが入りますサブタイトルが入ります</p>
+      <p class="p-header__sub">サブタイトルが入りますサブタイトルが入ります</p>
     </div>
     <ul class="p-nav">
       <li><a href="#">メニュー1</a></li>
@@ -28,100 +28,96 @@
 
 
   <main>
-    <article class="c-recommend-news">
-      <section class="p-c_card">
-        <div class="u-position">
-          <img class="c-c_card-img" src="image/post-image/building.jpg" alt="ブログアイキャッチ">
+    <article class="p-recommend-group">
+      <section class="u-flex">
+        <div class="p-recommend-post__thumb-wrap">
+          <img class="p-recommend-post__thumb" src="image/post-image/building.jpg" alt="ブログアイキャッチ">
           <p class="c-category u-img-right-top">カテゴリ名</p>
         </div>
-        <h2 class="c-c_card-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+        <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
       </section>
 
-      <section class="p-c_card">
-        <div class="u-position">
-          <img class="c-c_card-img" src="image/post-image/sheep.jpg" alt="ブログアイキャッチ">
+      <section class="u-flex">
+        <div class="p-recommend-post__thumb-wrap">
+          <img class="p-recommend-post__thumb" src="image/post-image/sheep.jpg" alt="ブログアイキャッチ">
           <p class="c-category u-img-right-top">カテゴリ名</p>
         </div>
-        <h2 class="c-c_card-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+        <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
       </section>
 
-      <section class="p-c_card">
-        <div class="u-position">
-          <img class="c-c_card-img" src="image/post-image/mountain.jpg" alt="ブログアイキャッチ">
+      <section class="u-flex">
+        <div class="p-recommend-post__thumb-wrap">
+          <img class="p-recommend-post__thumb" src="image/post-image/mountain.jpg" alt="ブログアイキャッチ">
           <p class="c-category u-img-right-top">カテゴリ名</p>
         </div>
-        <h2 class="c-c_card-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+        <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
       </section>
     </article>
 
 
-    <div class="u-home-pc-column">
+
+    <div class="u-flex">
       <!-- 最新記事 -->
-      <div class="u-blog-repeat">
-        <article class="u-blog-section">
-          <section class="p-blog-post">
-            <img class="c-blog-thumbnail" src="image/post-image/tower.jpg" alt="ブログアイキャッチ">
-            <div class="u-blog-info">
-              <div class="c-blog-category-date">
-                <p class="c-category">カテゴリ名</p>
-                <p class="blog-date">2019/1/1</p>
-              </div>
-              <h2 class="c-blog-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
-              <p class="c-blog-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+      <div class="u-article-wrap">
+        <section class="p-article">
+          <img class="c-article__thumb" src="image/post-image/tower.jpg" alt="ブログアイキャッチ">
+          <div class="c-article__desc-wrap">
+            <div class="c-article__cat-date-wrap">
+              <p class="c-category">カテゴリ名</p>
+              <p class="blog-date">2019/1/1</p>
             </div>
-          </section>
-        </article>
+            <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+            <p class="c-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+          </div>
+        </section>
 
-        <article class="u-blog-section">
-          <section class="p-blog-post">
-            <img class="c-blog-thumbnail" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
-            <div class="u-blog-info">
-              <div class="c-blog-category-date">
-                <p class="c-category">カテゴリ名</p>
-                <p class="blog-date">2019/1/1</p>
-              </div>
-              <h2 class="c-blog-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
-              <p class="c-blog-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
-            </div>
-          </section>
-        </article>
 
-        <article class="u-blog-section">
-          <section class="p-blog-post">
-            <img class="c-blog-thumbnail" src="image/post-image/shark.jpg" alt="ブログアイキャッチ">
-            <div class="u-blog-info">
-              <div class="c-blog-category-date">
-                <p class="c-category">カテゴリ名</p>
-                <p class="blog-date">2019/1/1</p>
-              </div>
-              <h2 class="c-blog-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
-              <p class="c-blog-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+        <section class="p-article">
+          <img class="c-article__thumb" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
+          <div class="c-article__desc-wrap">
+            <div class="c-article__cat-date-wrap">
+              <p class="c-category">カテゴリ名</p>
+              <p class="blog-date">2019/1/1</p>
             </div>
-          </section>
-        </article>
+            <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+            <p class="c-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+          </div>
+        </section>
 
-        <article class="u-blog-section">
-          <section class="p-blog-post">
-            <img class="c-blog-thumbnail" src="image/post-image/sea.jpg" alt="ブログアイキャッチ">
-            <div class="u-blog-info">
-              <div class="c-blog-category-date">
-                <p class="c-category">カテゴリ名</p>
-                <p class="blog-date">2019/1/1</p>
-              </div>
-              <h2 class="c-blog-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
-              <p class="c-blog-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+
+        <section class="p-article">
+          <img class="c-article__thumb" src="image/post-image/shark.jpg" alt="ブログアイキャッチ">
+          <div class="c-article__desc-wrap">
+            <div class="c-article__cat-date-wrap">
+              <p class="c-category">カテゴリ名</p>
+              <p class="blog-date">2019/1/1</p>
             </div>
-          </section>
-        </article>
+            <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+            <p class="c-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+          </div>
+        </section>
+
+
+        <section class="p-article">
+          <img class="c-article__thumb" src="image/post-image/sea.jpg" alt="ブログアイキャッチ">
+          <div class="c-article__desc-wrap">
+            <div class="c-article__cat-date-wrap">
+              <p class="c-category">カテゴリ名</p>
+              <p class="blog-date">2019/1/1</p>
+            </div>
+            <h2 class="c-post-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
+            <p class="c-text">文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります</p>
+          </div>
+        </section>
       </div>
 
 
       <!-- プロフィール欄 -->
-      <div class="u-blog">
+      <div class="u-article-list-wrap">
         <article class="p-profile">
-          <h2 class="c-profile-head">プロフィール</h2>
-          <img class="c-profile-avator" src="image/abator.jpg" alt="サイトオーナーの写真">
-          <p class="c-profile-text">
+          <h2 class="c-sub-head">プロフィール</h2>
+          <img class="p-profile-avator" src="image/abator.jpg" alt="サイトオーナーの写真">
+          <p class="c-text">
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
         </article>
@@ -129,7 +125,7 @@
 
         <!-- 検索フォーム -->
         <section class="p-search-form">
-          <h2 class="c-profile-head ">検索</h2>
+          <h2 class="c-sub-head">検索</h2>
           <!-- 検索フォーム -->
         </section>
 
@@ -137,32 +133,31 @@
         <!-- 人気記事一覧 -->
         <article>
           <section class="u-popular-contents">
-            <h2 class="c-profile-head">人気記事</h2>
+            <h2 class="c-sub-head">人気記事</h2>
             <ul>
               <li class="p-c_card p-pc-new-popular">
-                <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
 
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
 
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
 
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/lake.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
@@ -178,7 +173,7 @@
             <ul>
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/snow.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/snow.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
@@ -188,7 +183,7 @@
             <ul>
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/hotel.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/hotel.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
@@ -197,7 +192,7 @@
             <ul>
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/tower.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/tower.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>
@@ -206,7 +201,7 @@
             <ul>
               <li class="p-c_card p-pc-new-popular">
                 <!-- <div class="u-position"> -->
-                  <img class="c-c_card-img c-popular-img" src="image/post-image/town.jpg" alt="ブログアイキャッチ">
+                <img class="c-c_card-img c-popular-img" src="image/post-image/town.jpg" alt="ブログアイキャッチ">
                 <!-- </div> -->
                 <h2 class="c-c_card-title c-popular-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2>
               </li>

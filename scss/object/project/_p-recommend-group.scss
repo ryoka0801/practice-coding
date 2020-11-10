@@ -1,0 +1,46 @@
+.p-recommend-group {
+  padding: 4rem 1.5rem;
+  background-color: #F4F4F4;
+  @include breakpoint( pc ) {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  .u-flex {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 34.9rem;
+    height: 8.6rem;
+    @include breakpoint( pc ) {
+      display: initial;
+      height: auto;
+      margin: 0;
+    }
+  }
+}
+
+
+
+.p-recommend-post__thumb-wrap {
+  position: relative;
+  @include breakpoint( pc ) {
+    width: 34rem;
+    height: 20rem;
+  }
+}
+
+.p-recommend-post__thumb {
+  height: 100%;
+  width: 14.8rem;
+  @include breakpoint( pc ) {
+    width: 34rem;
+    height: 20rem;
+  }
+}
+
+
+article section:nth-of-type(2) {
+  @include breakpoint( pc ) {
+    margin: 0 4rem 0;
+  }
+}
