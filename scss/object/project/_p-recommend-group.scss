@@ -14,12 +14,9 @@
     @include breakpoint( pc ) {
       display: initial;
       height: auto;
-      margin: 0;
     }
   }
 }
-
-
 
 .p-recommend-post__thumb-wrap {
   position: relative;

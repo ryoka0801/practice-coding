@@ -1,0 +1,18 @@
+.p-new-blog {
+  margin-bottom: 2rem;
+  @include breakpoint( pc ) {
+    height: 7rem;
+  }
+  .u-flex {
+    display: flex;
+  }
+  .c-post-title {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    text-align: initial;
+    @include breakpoint( pc ) {
+      margin: 0 0 0 1rem;
+    }
+  }
+}

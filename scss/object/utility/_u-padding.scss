@@ -4,6 +4,10 @@
   }
 }
 
+.u-blog-loop--wrap {
+  padding-bottom: 6rem;
+}
+
 .u-article-wrap {
   padding: 4.2rem 1.5rem 8rem 1.1rem;
   @include breakpoint( pc ) {
@@ -11,18 +15,11 @@
    flex-wrap: wrap;
     align-content: flex-start;
     padding: 0;
-    width: 72.277rem;
-    margin-right: 3.82rem;
+    // width: 72.277rem;
+    // margin-right: 3.82rem;
   }
 }
 
-
-.u-footer-sub-title {
-  padding-top: 1.8rem;
-  @include breakpoint( pc ) {
-    padding-top: 1.5rem;
-  }
-}
 
 .u-blog-category-info {
   padding-left: 1.2rem;

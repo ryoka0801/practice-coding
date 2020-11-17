@@ -13,10 +13,7 @@
 @import "object/component/c-date";
 @import "object/component/_c-post-title";
 @import "object/component/_c-text";
-@import "object/component/_c-popular-title";
-@import "object/component/c-popular-img";
 @import "object/component/_c-archive-text";
-@import "object/component/c-footer-title";
 @import "object/component/_c-category-genre";
 @import "object/component/_c-category-title";
 @import "object/component/_c-category-text";
@@ -24,6 +21,7 @@
 @import "object/component/c-category";
 @import "object/component/_c-post-title";
 @import "object/component/c-sub-head";
+@import "object/component/_c-post-list-thumb";
 
 // project
 @import "object/project/p-nav";
@@ -31,12 +29,13 @@
 @import "object/project/p-article";
 @import "object/project/p-profile";
 @import "object/project/_p-search-form";
-@import "object/project/_p-footer-menu";
-@import "object/project/_p-footer-copyright";
 @import "object/project/p-header";
-@import "object/project/p-pc-new-popular";
 @import "object/project/_p-category";
 @import "object/project/_p-category-c_card";
+@import "object/project/p-popular__blog";
+@import "object/project/_p-new-blog";
+@import "object/project/_p-archive-menu";
+@import "object/project/p-footer";
 
 // utility
 @import "object/utility/u-padding";

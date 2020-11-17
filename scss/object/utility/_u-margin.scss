@@ -3,18 +3,18 @@
 }
 
 .u-article-list-wrap {
-  margin: 0 1.7rem 12rem 1.8rem;
+  padding: 0 1.7rem 12rem 1.7rem;
+  @include breakpoint( pc ) {
+    padding: initial;
+  }
+}
+
+.u-blog-loop--wrap {
+  // margin: 0 1.7rem 12rem 1.8rem;
   @include breakpoint( pc ) {
     margin: 0;
     width: 34.1rem;
   }
-}
-
-.u-footer-menu-list {
-  margin-top: 3.9rem;
-  list-style: none;
-  display: flex;
-  justify-content: center;
 }
 
 .u-blog-section:nth-of-type(odd) {
