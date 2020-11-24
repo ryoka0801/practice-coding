@@ -14,14 +14,13 @@
 @import "object/component/_c-post-title";
 @import "object/component/_c-text";
 @import "object/component/_c-archive-text";
-@import "object/component/_c-category-genre";
-@import "object/component/_c-category-title";
-@import "object/component/_c-category-text";
 @import "object/component/_c-category-thumbnail";
 @import "object/component/c-category";
 @import "object/component/_c-post-title";
 @import "object/component/c-sub-head";
 @import "object/component/_c-post-list-thumb";
+@import "object/component/_c-genre";
+@import "object/component/_c-card";
 
 // project
 @import "object/project/p-nav";
@@ -31,7 +30,6 @@
 @import "object/project/_p-search-form";
 @import "object/project/p-header";
 @import "object/project/_p-category";
-@import "object/project/_p-category-c_card";
 @import "object/project/p-popular__blog";
 @import "object/project/_p-new-blog";
 @import "object/project/_p-archive-menu";

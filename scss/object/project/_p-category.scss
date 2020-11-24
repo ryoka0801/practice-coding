@@ -1,7 +1,35 @@
-.p-category {
+.p-category-about {
   width: 34.4rem;
   height: 28.378rem;
-  margin: 7.22rem auto 0;
+  margin: 7.22rem auto 4rem;
   border-top: solid 1px $red;
   text-align: initial;
+  @include breakpoint( pc ) {
+    width: 72rem;
+    margin: 0 auto;
+    height: 18.3rem;
+  }
+  .c-genre {
+    margin-top: 3rem;
+  }
+  &__title {
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    @include breakpoint( pc ) {
+      margin-top: 1.5rem;
+      font-size: 2.6rem;
+    }
+  }
+  &__text {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: $black;
+    margin-top: 2.8rem;
+    @include breakpoint( pc ) {
+      margin-top: 2.6rem;
+    }
+  }
 }
+
+

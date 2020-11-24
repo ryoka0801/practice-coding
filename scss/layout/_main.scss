@@ -2,8 +2,12 @@
   background-color: $whitegray;
 }
 
-main {
+main.u-flex {
   text-align: center;
+  display: initial;
+  @include breakpoint( pc ) {
+    display: flex;
+  }
   >.u-flex {
     display: initial;
     @include breakpoint( pc ) {
@@ -11,6 +15,12 @@ main {
       justify-content: space-between;
       width: 1100px;
       margin: 6rem auto;
+    }
+  }
+  .u-flex--column {
+    @include breakpoint( pc ) {
+      display: initial;
+      width: 72.9rem;
     }
   }
 }

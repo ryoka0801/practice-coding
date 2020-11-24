@@ -1,0 +1,82 @@
+.c-card {
+  width: 32.2rem;
+  height: 8.3rem;
+  margin: 0 auto 1.9rem;
+  padding: 1rem;
+  border: 1px solid #333;
+  @include breakpoint( pc ) {
+    width: 67.8rem;
+    height: 14.2rem;
+    padding: 2rem;
+  }
+  &--margin0 {
+    @include breakpoint( pc ) {
+      margin: 0!important;
+    }
+  }
+  &:last-child {
+    margin-bottom: 4rem;
+  }
+  &__img {
+    width: 14.6rem;
+    height: 8.5rem;
+    margin-right: 1.2rem;
+    @include breakpoint( pc ) {
+      width: 24.5rem;
+      height: 14.4rem;
+      margin-right: 2rem;
+    }
+  }
+  div.c-article__cat-date-wrap--small {
+    height: 1.9rem;
+    @include breakpoint( pc ) {
+      height: 2.4rem
+    }
+    .c-category {
+      width: 7.7rem;
+      height: 100%;
+      font-size: 1rem; 
+      line-height: 1.9rem;
+      @include breakpoint( pc ) {
+        line-height: 2.4rem;
+        font-size: 1.2rem;
+      }
+    }
+    .blog-date {
+      margin-left: 2.7rem;
+      font-size: 1rem;
+      @include breakpoint( pc ) {
+        font-size: 1.2rem;
+        margin-left: 3.4rem;
+      }
+    }
+  }
+  .c-post-title {
+    margin-top: 1rem;
+    height: 6.3rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: initial;
+    @include breakpoint( pc ) {
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+      height: 5rem;
+    }
+  }
+  .c-text {
+    display: none;
+    @include breakpoint( pc ) {
+      display: block;
+      text-align: initial;
+      line-height: 1.8rem;
+      height: 4rem;
+    }
+  }
+}
+
+.u-blog-repeat {
+  margin: 0 auto;
+  @include breakpoint( pc ) {
+    width: 100%;
+  }
+}
