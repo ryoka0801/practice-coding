@@ -1,4 +1,4 @@
-.c-card {
+section.c-card {
   width: 32.2rem;
   height: 8.3rem;
   margin: 0 auto 1.9rem;
@@ -9,9 +9,11 @@
     height: 14.2rem;
     padding: 2rem;
   }
+}
+.c-card{
   &--margin0 {
     @include breakpoint( pc ) {
-      margin: 0!important;
+      margin-left: 0!important;
     }
   }
   &:last-child {

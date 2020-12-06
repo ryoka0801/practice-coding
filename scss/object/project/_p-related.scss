@@ -1,0 +1,34 @@
+.p-related {
+  text-align: initial;
+  font-size: 1.8rem;
+  width: 7.2rem;
+  height: 1.8rem;
+  margin-left: 1.17rem;
+  &__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+  } 
+  &__section {
+    @include breakpoint( pc ) {
+      margin-bottom: 2.1rem;
+    }
+    .c-post-list-thumb {
+      width: 14.6rem;
+      height: 8.5rem;
+    }
+  }
+  &__ttl {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 14.6rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    @include breakpoint( pc ) {
+      font-size: 1.4rem;
+      overflow: hidden;
+      height: 6rem;
+    }
+  }
+}

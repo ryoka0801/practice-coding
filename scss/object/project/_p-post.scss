@@ -1,0 +1,66 @@
+.p-post{
+  width: 32.207rem;
+  margin: 7.2rem auto 8rem;
+  padding: 1rem 1.07rem;
+  border: solid 1px #707070;
+  @include breakpoint( pc ) {
+    width: 64rem;
+    padding: 4rem 4.1rem;
+  }
+  .c-category {
+    font-size: 1.1rem;
+    width: 8.5rem;
+    @include breakpoint( pc ) {
+      font-size: 1.2rem;
+      width: 8.9rem;
+      height: 2.4rem;
+    }
+  }
+  &__title {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    text-align: initial;
+    @include breakpoint( pc ) {
+      font-size: 3rem;
+      width: 64rem;
+      height: 8.7rem;
+      line-height: 5.1rem;
+    }
+  }
+  .c-date {
+    display: flex;
+    margin-top: 2rem;
+    &__detail {
+      font-size: 1.1rem;
+      margin-right: 3.8rem;
+      @include breakpoint( pc ) {
+        margin-right: 3.3rem;
+      }
+    }
+  }
+  &__thum {
+    width: 100%;
+    height: 18.7rem;
+    margin-top: 1.9rem;
+    @include breakpoint( pc ) {
+      width: 64rem;
+      height: 37.5rem;
+      margin-top: 2rem;
+    }
+  }
+  &__text {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: initial;
+    width: 32.4rem;
+    height: 25.7rem;
+    overflow: hidden;
+    @include breakpoint( pc ) {
+      width: 64rem;
+      height: 13.5rem;
+      line-height: 3.6rem;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.p-post-cont {
+  width: 31.6rem;
+  margin: 6rem auto 0;
+  border: 1px solid $red;
+  @include breakpoint( pc ) {
+    width: 57.8rem;
+    padding: 3rem 3rem 0 3rem;
+    margin-top: 4rem;
+  }
+  ol {
+    counter-reset: number;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    margin-top: 2.1rem;
+    &:last-of-type {
+      margin-top: 3.9rem;
+    }
+    @include breakpoint( pc ) {
+      margin-top: 3.5rem;
+    }
+  }
+  >ul>li {
+    margin: 2rem 0 0 6.65rem;
+    @include breakpoint( pc ) {
+      margin: 1.5rem 0 1rem 8.1rem;
+    }
+    &::marker {
+      color: $red;
+    }
+    &:last-of-type {
+      margin-top: 1.1rem;
+      margin-bottom: 3rem;
+    }
+  }
+  >li {
+    list-style: none;
+    list-style-position: inside;
+  }
+  ol li:before{
+    /* カウンタ（数字になる部分） */
+    counter-increment: number; /* 任意の名前を付けて！ */
+    content: counter(number); /* 名前を付けたカウンターを呼び出し */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: $red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.1rem;
+  }
+  &__title {
+    font-size: 1.8rem;
+    margin: 3rem auto 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $red;
+    width: 27.5rem;
+    @include breakpoint( pc ) {
+      width: 58.1rem;
+      margin: 0 auto;
+    }
+  }
+  &__head {
+    width: 23.6rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin-left: 5.45rem;
+    text-align: initial;
+    @include breakpoint( pc ) {
+      width: 36.3rem;
+      height: 2.6rem;
+      line-height: 2.6rem;
+    }
+    &--h3 {
+      font-size: 1.6rem;
+      font-weight: lighter;
+      text-align: initial;
+    }
+  }
+}

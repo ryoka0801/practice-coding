@@ -15,8 +15,14 @@
       display: initial;
       height: auto;
     }
+    &:nth-of-type(2) {
+       @include breakpoint( pc ) {
+          margin: 0 4rem 0;
+       }
+    }
   }
 }
+
 
 .p-recommend-post__thumb-wrap {
   position: relative;
@@ -32,12 +38,5 @@
   @include breakpoint( pc ) {
     width: 34rem;
     height: 20rem;
-  }
-}
-
-
-article section:nth-of-type(2) {
-  @include breakpoint( pc ) {
-    margin: 0 4rem 0;
   }
 }
